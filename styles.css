@@ -15,3 +15,23 @@ h1 {
     text-align: center;
     color: #2fc4b2
 }
+div> p{
+  font-style: italic;
+}
+h1 + p {
+    color: #2fc4b2;
+}
+a:hover{
+    color: #96bb7c;
+}
+a:active{
+    font-size: 50px;
+}
+a:visited {
+    background-color: yellow;
+  border-color: hotpink;
+  color: rgb(62, 128, 19);
+}
+a:link {
+    background-color:#b6eb7a ;
+}
