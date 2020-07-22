@@ -1,37 +1,66 @@
 body {
-   background-color: #f4f6ff;
+    background-color: white;
+    margin: 0;
 }
-hr {
-    border-style: none;    
-    border-top-style: dotted;
-    border-color: grey;
-    border-width: 5px;
-    width: 5%;
-}
-h3 {
-    color: #2fc4b2
-}
-h1 {
+.header1 {
     text-align: center;
-    color: #2fc4b2
+    padding-top: 7.0rem;
+    padding-bottom: 1.0rem;
+    font-family: 'Marck Script', cursive;
+    color: white;
+    font-size: 270%
+
+
 }
-div> p{
-  font-style: italic;
+.firstp {
+    font-weight: normal;
+    text-align: center;
+    padding-bottom: 7.0rem;
+    color: white;
+    font-size: 120%;
+  
 }
-h1 + p {
-    color: #2fc4b2;
+
+.pizza {
+    background-image: url(https://images.unsplash.com/photo-1513104890138-7c749659a591?ixlib=rb-1.2.1&w=1000&q=80);
+    height: 53.375em;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: contain;
+    position: relative;
+    background-size: cover;
+    margin: 0;
+   
+  }
+.pizzatext {
+    text-align: center;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  color: white;
 }
-a:hover{
-    color: #96bb7c;
+
+.btn {
+	box-shadow:inset 11px 40px 0px -22px #74cc5c;
+	background-color:#44c767;
+	display:inline-block;
+	cursor:pointer;
+	color:#ffffff;
+	font-family:Arial;
+	font-size:18px;
+	font-weight:bold;
+	padding:10px 23px;
+	text-decoration:none;
+	text-shadow:1px 1px 16px #2f6627;
 }
-a:active{
-    font-size: 50px;
+.btn:hover {
+	background-color:#5cbf2a;
 }
-a:visited {
-    background-color: yellow;
-  border-color: hotpink;
-  color: rgb(62, 128, 19);
+.btn:active {
+	position:relative;
+	top:1px;
 }
-a:link {
-    background-color:#b6eb7a ;
-}
+
+
+
