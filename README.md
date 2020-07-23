@@ -1,2 +1,0 @@
-# OkotoksPizza
-Okotoks pizza repository

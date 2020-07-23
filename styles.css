@@ -7,7 +7,7 @@ body {
     padding-top: 7.0rem;
     padding-bottom: 1.0rem;
     font-family: 'Marck Script', cursive;
-    color: white;
+    color: #f7f7f7;
     font-size: 270%
 
 
@@ -18,11 +18,12 @@ body {
     padding-bottom: 7.0rem;
     color: white;
     font-size: 120%;
-  
+    font-family: 'Indie Flower', cursive;
+    line-height: 1;
 }
 
 .pizza {
-    background-image: url(https://images.unsplash.com/photo-1513104890138-7c749659a591?ixlib=rb-1.2.1&w=1000&q=80);
+    background-image: url(/images.png/pizza1.png);
     height: 53.375em;
     background-position: center;
     background-repeat: no-repeat;
@@ -39,28 +40,92 @@ body {
   left: 50%;
   transform: translate(-50%, -50%);
   color: white;
+
 }
 
 .btn {
-	box-shadow:inset 11px 40px 0px -22px #74cc5c;
-	background-color:#44c767;
+    background:linear-gradient(to bottom, #b6eb7a 5%, #5cbf2a 100%);
+	background-color:#b6eb7a;
+	border:2px solid #18ab29;
 	display:inline-block;
 	cursor:pointer;
-	color:#ffffff;
+	color:#f7f7f7;
 	font-family:Arial;
-	font-size:18px;
+	font-size:21px;
 	font-weight:bold;
-	padding:10px 23px;
+	padding:14px 32px;
 	text-decoration:none;
-	text-shadow:1px 1px 16px #2f6627;
+	text-shadow:0px 1px 0px #2f6627
 }
 .btn:hover {
+	background:linear-gradient(to bottom, #5cbf2a 5%, #b6eb7a 100%);
 	background-color:#5cbf2a;
 }
 .btn:active {
 	position:relative;
 	top:1px;
 }
+.pizza2 {
+    background-image: url(https://c0.wallpaperflare.com/preview/436/87/720/artesanal-pizza-cheese-close-up-cooking.jpg);
+    height: 33.375em;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: contain;
+    position: relative;
+    background-size: cover;
+    margin: 0;
+    float: left;
+   
+}
+.btn2 {
+	background:linear-gradient(to bottom, #b6eb7a 5%, #5cbf2a 100%);
+	background-color:#b6eb7a;
+	border:2px solid #18ab29;
+	display:inline-block;
+	cursor:pointer;
+	color:#ffffff;
+	font-family:Arial;
+	font-size:21px;
+	font-weight:bold;
+	padding:14px 32px;
+	text-decoration:none;
+    text-shadow:0px 1px 0px #2f6627;
+    margin-left: 29%;
+    
 
+}
+.btn2:hover {
+	background:linear-gradient(to bottom, #5cbf2a 5%, #b6eb7a 100%);
+	background-color:#5cbf2a;
+}
+.btn2:active {
+	position:relative;
+    top:1px;
+    padding: 20px 30px
+}
+
+.p2 {
+    text-align: center;
+    color: #f7f7f7;
+    line-height: 1.5;
+    float: left;
+    padding-left: 2%;
+    padding-right: 35%;
+    margin-top: 0%;
+    font-family: 'Cormorant Garamond', serif;
+    font-size: 120%;
+}
+
+.phone {
+    color: white;
+    padding-top: 5%;
+    padding-left: 3%;
+}
+.about {
+    color: #f7f7f7;
+    padding-left: 28.5%;
+    padding-top: 10%;
+    font-family: 'Marck Script', cursive;
+}
 
 
