@@ -1,160 +1,36 @@
-body {
-    background-color: white;
-    margin: 0;
-}
-.header1 {
-    text-align: center;
-    padding-top: 7.0rem;
-    padding-bottom: 1.0rem;
-    font-family: 'Marck Script', cursive;
-    color: #f7f7f7;
-    font-size: 270%
-
-
-}
-.firstp {
-    font-weight: normal;
-    text-align: center;
-    padding-bottom: 7.0rem;
-    color: white;
-    font-size: 120%;
-    font-family: 'Indie Flower', cursive;
-    line-height: 1;
-}
-
-.pizza {
-    background-image: url(images.png/pizza1.png);
-    height: 53.375em;
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: contain;
-    position: relative;
-    background-size: cover;
-    margin: 0;
-   
-  }
-.pizzatext {
-    text-align: center;
-  position: absolute;
-  top: 50%;
-  left: 50%;
-  transform: translate(-50%, -50%);
-  color: white;
-
-}
-
-.btn {
-    background:linear-gradient(to bottom, #b6eb7a 5%, #5cbf2a 100%);
-	background-color:#b6eb7a;
-	border:2px solid #18ab29;
-	display:inline-block;
-	cursor:pointer;
-	color:#f7f7f7;
-	font-family:Arial;
-	font-size:21px;
-	font-weight:bold;
-	padding:14px 32px;
-	text-decoration:none;
-	text-shadow:0px 1px 0px #2f6627
-}
-.btn:hover {
-	background:linear-gradient(to bottom, #5cbf2a 5%, #b6eb7a 100%);
-	background-color:#5cbf2a;
-}
-.btn:active {
-	position:relative;
-	top:1px;
-}
-.pizza2 {
-    background-image: url(https://c0.wallpaperflare.com/preview/436/87/720/artesanal-pizza-cheese-close-up-cooking.jpg);
-    height: 33.375em;
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: contain;
-    position: relative;
-    background-size: cover;
-    margin: 0;
-    float: left;
-   
-}
-.btn2 {
-	background:linear-gradient(to bottom, #b6eb7a 5%, #5cbf2a 100%);
-	background-color:#b6eb7a;
-	border:2px solid #18ab29;
-	display:inline-block;
-	cursor:pointer;
-	color:#ffffff;
-	font-family:Arial;
-	font-size:21px;
-	font-weight:bold;
-	padding:14px 32px;
-	text-decoration:none;
-    text-shadow:0px 1px 0px #2f6627;
-    margin-left: 29%;
-    
-
-}
-.btn2:hover {
-	background:linear-gradient(to bottom, #5cbf2a 5%, #b6eb7a 100%);
-	background-color:#5cbf2a;
-}
-.btn2:active {
-	position:relative;
-    top:1px;
-    padding: 20px 30px
-}
-
-.p2 {
-    text-align: center;
-    color: #f7f7f7;
-    line-height: 1.5;
-    float: left;
-    padding-left: 2%;
-    padding-right: 35%;
-    margin-top: 0%;
-    font-family: 'Cormorant Garamond', serif;
-    font-size: 120%;
-}
-
-.phone {
-    color: white;
-    padding-top: 5%;
-    padding-left: 3%;
-}
-.about {
-    color: #f7f7f7;
-    padding-left: 28.5%;
-    padding-top: 10%;
-    font-family: 'Marck Script', cursive;
-}
-#header {
+.site {
     display: grid;
-    grid-template-columns: repeat(1fr);
-    height: 20%;
-    width: 100%;
-    color: #5cbf2a;
+    grid-template-rows: 1fr;
+    grid-template-areas: 
+    "header"
+    "maincontent1"
+    "maincontent2";
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
 }
-.topnav {
-    overflow: hidden;
-    background-color: #333;
-    position: sticky;
-  }
-  
-  .topnav a {
-    float: left;
-    color: #f2f2f2;
+img {
+    object-fit: cover;
+    height: 25rem;
+    width: 35rem;
+}
+.header {
+    grid-area: header;
     text-align: center;
-    padding: 14px 16px;
-    text-decoration: none;
-    font-size: 17px;
-  }
-  
-  .topnav a:hover {
-    background-color: #ddd;
-    color: black;
-  }
-  
-  .topnav a.active {
-    background-color: #5cbf2a;
-    color: white;
+}
+.maincontent1 {
+    grid-area: maincontent1;
+    text-align: center;
+}
+.maincontent2 {
+    grid-area: maincontent2;
+    text-align: center;
+}
+ @media only screen and (min-width: 800px) {
+     .site {
+         background-color: aqua;
+     }
+ }
+  @media only screen and (min-width: 1024px) {
+      .site {
+          background-color: #e7305b;
+      }
   }
