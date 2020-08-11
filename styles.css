@@ -4,7 +4,7 @@
 }
 .site {
     display: grid;
-    gap: 12px;
+    
     overflow: hidden;
     overflow-y: scroll;
 }
@@ -12,13 +12,95 @@ img {
     width: 50%;
     height: auto;
 }
-
+.mobile-header {
+    display: grid;
+    justify-items: center;
+    align-items: center;
+    grid-template-columns: 2fr 4fr 1fr;
+    min-height: 6vh;
+    position: fixed;
+    background-color: white;
+    height: 8vh;
+}
+.mobile-hamburger-line {
+    width:30px;
+    height: 4px;
+    background-color: black;
+}
+.mobile-hamburger-container {
+    display: grid;
+    justify-items: center;
+    align-items: center;
+    width: 50px;
+    height: 35px;
+    z-index: 4;
+    position: relative;
+}
+.header-a-tags {
+    color: #411f1f;
+    text-decoration: none;
+    font-weight: bold;
+    margin-top: 1vh;
+}
+.mobile-header-menu {
+    position: absolute;
+    width: 100%;
+    background-color: #b2ebf2;
+    display: grid;
+    justify-items: center;
+    align-items: center;
+    top: -15vh;
+    opacity: 0;
+    left: 0;
+    min-height: 10vh;
+    transition: all 0.5s ease-in-out;
+}
+.mobile-menu-checkbox {
+    width: 50px;
+    height: 50px;
+    position: absolute;
+    opacity: 0;
+    z-index: 5;
+}
+.mobile-menu-checkbox:checked ~ .mobile-header-menu {
+    top: 0;
+    opacity: 1;
+    transition: all 0.5s ease-in-out;
+}
+.div-one-a-tags {
+    display: grid;
+    text-decoration: none;
+    text-align: center;
+    justify-items: center;
+    color: white;
+    display: inline-block;
+    font-size: 12px;
+    text-transform: uppercase;
+    text-decoration: none;
+    letter-spacing: 2px;
+    padding: 13px 30px;
+    font-weight: 600;
+    border: 2px solid #212a2f;
+    border-radius: 2px;
+    color: #212a2f;
+    background-color: white;
+    text-align: center;
+    display: grid;
+    margin-top: 2vh;
+    margin-bottom: 1vh;
+    margin-left: 20vw;
+    margin-right: 20vw;
+}
 .content-one-header {
     text-align: center;
     font-size: 2em;
     color: white;
     bottom: 10vh;
-    margin-top: 8vh;
+    display: flex;
+    align-items: center;
+    justify-content: center
+    
+    
 }
 .content-one-text {
     text-align: center;
@@ -29,20 +111,15 @@ img {
     padding-left: 7.5vh;
     padding-right: 7.5vh;
 }
-.menu-atag {
-    position: absolute;
-    left: 114px;
-    top: 35vh;
-}
-.order-atag {
-    position: absolute;
-    left: 250px;
-    top: 35vh;
-}
+
+   
+    
 .content-one {
     background-image: url(images.png/pizza1.png);
     padding-bottom: 65vh;
    background-position: center;
+   background-repeat: no-repeat;
+   
 }
 .first {
     margin-left: auto;
@@ -74,10 +151,12 @@ img {
     border-radius: 2px;
     color: #212a2f;
     background-color: #fff;
-    
-    margin-left: 26.5vw;
+    text-align: center;
+    display: grid;
     margin-top: 2vh;
     margin-bottom: 1vh;
+    margin-left: 20vw;
+    margin-right: 20vw;
 }
 
 .content-three {
@@ -96,9 +175,12 @@ img {
     height: 200px;
 }
 .footer {
-    padding: 40px 60px;
-    background-color: #f1f9f9;
-}
+     text-align: center;
+     padding-top: 4vh;
+     padding-bottom: 4vh;
+     background-color: #f1f9f9; 
+    };
+
 .footer-tags{
     text-align: center;
 }
