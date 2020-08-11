@@ -78,7 +78,7 @@ img {
     text-transform: uppercase;
     text-decoration: none;
     letter-spacing: 2px;
-    padding: 13px 30px;
+    padding: 13px 19px;
     font-weight: 600;
     border: 2px solid #212a2f;
     border-radius: 2px;
@@ -102,6 +102,9 @@ img {
     
     
 }
+.content-two-header {
+    font-weight: 500;
+}
 .content-one-text {
     text-align: center;
     font-size: 0.9em;
@@ -111,15 +114,91 @@ img {
     padding-left: 7.5vh;
     padding-right: 7.5vh;
 }
-
-   
+.content-two-text {
+    line-height: 1.5;
+}
+.our-store {
+    font-weight: 500;
+    text-align: center;
+    padding-top: 4vh;
+}
+.our-store-text {
+    text-align: center;
+    padding-left: 5vw;
+    padding-right: 5vw;
+    padding-bottom: 3vh;
+    line-height: 1.5;
+}
+.location {
+    font-weight: 500;
+}
+.images {
+    display: grid;
+    gap: 5px;
+    grid-template-areas:
+    'img1 img2 img2'
+    'img3 img4 img5'
+    'img6 img6 img6'
+    'img7 img7 img8';
+    width: 100%;
+    height: 100vh;
     
+}
+#first-content {
+    display: grid;
+    justify-items: center;
+    align-items: center;
+}
+.img1 {
+    grid-area: img1;
+    background-image: url(https://i.pinimg.com/originals/e0/ab/cf/e0abcfa37fc77332e08f6e6bdbabe5f0.jpg);
+    background-size: cover;
+}
+.img2 {
+    grid-area: img2;
+    background-image: url(https://images.unsplash.com/photo-1555396273-367ea4eb4db5?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&w=1000&q=80);
+    background-size: cover;
+}
+.img3 {
+    grid-area: img3;
+    background-image: url(https://wallsheaven.com/photos/D816807655/400/adult-employee-of-farm-food-store-with-fruits.jpg);
+    background-size: cover;
+}
+.img4 {
+    grid-area: img4;
+    background-image: url(https://ae01.alicdn.com/kf/HTB1KgUxUFzqK1RjSZFCq6zbxVXaJ/Custom-wallpaper-3d-mural-black-hand-painted-Italian-pizza-shop-Western-restaurant-background-wall-paper-home.jpg);
+    background-size: cover;
+}
+.img5 {
+    grid-area: img5;
+    background-image: url(https://ae01.alicdn.com/kf/HTB1atvDNpXXXXctXVXXq6xXFXXXR/Custom-Size-Photo-3D-Wood-blackboard-graffiti-wallpaper-Pizza-shop-snack-bar-restaurant-burgers-store-wallpaper.jpg_350x350.jpg);
+    background-size: cover;
+}
+.img6 {
+    grid-area: img6;
+    background-image: url(https://d2w1ef2ao9g8r9.cloudfront.net/images/health-wellness-1.jpg?mtime=20200306152609&focal=78.53%25+36.66%25);
+    background-size: cover;
+}
+.img7 {
+    grid-area: img7;
+    background-image: url(https://restaurantengine.com/wp-content/uploads/2013/02/Hire-Restaurant-Employees-Kitchen.jpg);
+    background-size: cover;
+}
+.img8 {
+    grid-area: img8;
+    background-image: url(https://2bwrl244x46j3rrorox6yc6b-wpengine.netdna-ssl.com/wp-content/uploads/migration_images/_MG_4268%20copy.jpg);
+    background-size: cover;
+}
 .content-one {
     background-image: url(images.png/pizza1.png);
-    padding-bottom: 65vh;
+    
+    min-height: 110vh;
    background-position: center;
    background-repeat: no-repeat;
    
+}
+#first-content-div {
+    
 }
 .first {
     margin-left: auto;
@@ -179,6 +258,7 @@ img {
      padding-top: 4vh;
      padding-bottom: 4vh;
      background-color: #f1f9f9; 
+     width: 100%
     };
 
 .footer-tags{
