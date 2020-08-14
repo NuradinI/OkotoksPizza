@@ -4,13 +4,20 @@
 }
 .site {
     display: grid;
-    
-    overflow: hidden;
+    min-width: 360px;
+    overflow-x: hidden;
     overflow-y: scroll;
 }
 img {
     width: 50%;
     height: auto;
+}
+p {
+    font-family: 'Nanum Myeongjo', serif;
+}
+h1 {
+    font-family: 'Tangerine', cursive;
+    font-size: 3em;
 }
 .mobile-header {
     display: grid;
@@ -68,29 +75,53 @@ img {
     transition: all 0.5s ease-in-out;
 }
 .div-one-a-tags {
-    display: grid;
-    text-decoration: none;
+	background:linear-gradient(to bottom, #ffffff 5%, #f6f6f6 100%);
+	background-color:#ffffff;
+	border-radius:6px;
+	border:1px solid #dcdcdc;
+	display:inline-block;
+	cursor:pointer;
+	color:#666666;
+	font-family:Georgia;
+	font-size:19px;
+	font-weight:bold;
+    padding: 6px 18px;
+    text-decoration:none;
     text-align: center;
-    justify-items: center;
-    color: white;
-    display: inline-block;
-    font-size: 12px;
-    text-transform: uppercase;
-    text-decoration: none;
-    letter-spacing: 2px;
-    padding: 13px 19px;
-    font-weight: 600;
-    border: 2px solid #212a2f;
-    border-radius: 2px;
-    color: #212a2f;
-    background-color: white;
-    text-align: center;
-    display: grid;
-    margin-top: 2vh;
-    margin-bottom: 1vh;
-    margin-left: 20vw;
-    margin-right: 20vw;
 }
+.div-one-a-tags:hover {
+	background:linear-gradient(to bottom, #f6f6f6 5%, #ffffff 100%);
+	background-color:#f6f6f6;
+}
+.div-one-a-tags:active {
+	position:relative;
+	top:1px;
+}
+.div-one-a-tag {
+	background:linear-gradient(to bottom, #ffffff 5%, #f6f6f6 100%);
+	background-color:#ffffff;
+	border-radius:6px;
+	border:1px solid #dcdcdc;
+	display:inline-block;
+	cursor:pointer;
+	color:#666666;
+	font-family:Georgia;
+	font-size:19px;
+	font-weight:bold;
+    padding:6px 12px;
+    margin-top: 2vh;
+	text-decoration:none;
+}
+.div-one-a-tag:hover {
+	background:linear-gradient(to bottom, #f6f6f6 5%, #ffffff 100%);
+	background-color:#f6f6f6;
+}
+.div-one-a-tag:active {
+	position:relative;
+	top:1px;
+}
+
+
 .content-one-header {
     text-align: center;
     font-size: 2em;
@@ -98,12 +129,14 @@ img {
     bottom: 10vh;
     display: flex;
     align-items: center;
-    justify-content: center
-    
-    
+    justify-content: center;
+    font-family: 'Tangerine', cursive;
+    font-size: 3em;
+    font-weight: 800;
 }
 .content-two-header {
     font-weight: 500;
+    
 }
 .content-one-text {
     text-align: center;
@@ -121,6 +154,7 @@ img {
     font-weight: 500;
     text-align: center;
     padding-top: 4vh;
+    
 }
 .our-store-text {
     text-align: center;
@@ -144,10 +178,14 @@ img {
     height: 100vh;
     
 }
+.content-three {
+    text-align: center;
+}
 #first-content {
     display: grid;
     justify-items: center;
     align-items: center;
+    text-align: center;
 }
 .img1 {
     grid-area: img1;
@@ -192,7 +230,7 @@ img {
 .content-one {
     background-image: url(images.png/pizza1.png);
     
-    min-height: 110vh;
+    min-height: 100vh;
    background-position: center;
    background-repeat: no-repeat;
    
@@ -236,20 +274,17 @@ img {
     margin-right: 20vw;
 }
 
-.content-three {
-    margin-left: 2vw;
-    margin-right: auto;
-}
+
 .location {
     text-align: center;
-    font-size: 2em;
     color: black;
     bottom: 10vh;
     margin-top: 8vh;
 }
 .google-maps {
-    width: 400px;
-    height: 200px;
+    max-width:400px;
+    max-height: 200px;
+    width: 100%;
 }
 .footer {
      text-align: center;
@@ -268,10 +303,64 @@ img {
 }
     
 
-@media only screen and (min-width:600px) {
-    
+@media only screen and (min-width:670px) {
+    .mobile-header-logo {
+        width: 100%;
+        height: 10vh;
+    }
+    p {
+        font-size: larger;
+    }
+    .div-one-a-tags {
+        margin-left: 40vw;
+        margin-right: 40vw;
+    }
+    .btn {
+        margin-left: 32vw;
+        margin-right: 32vw;
+    }
+    .content-one-text {
+        line-height: 1.4;
+        padding-left: 25.5vh;
+        padding-right: 25.5vh;
+    }
+   img {
+    width: 30%;
+       padding-top: 0.4vh;
+   }
+.mobile-header {
+    height: 6vh;
 }
-@media only screen and (min-width:1040px) {
-    
-    
+
 }
+@media only screen and (min-width:999px) {
+    #first-content {
+        background-image: url(https://wallpapermemory.com/uploads/617/pizza-background-hd-1920x1080-390198.jpg);
+        padding-left: 10.5vh;
+        padding-right: 10.5vh;
+}
+.img2 {
+    background-position-y: center;
+}
+.img1 {
+    background-position-y: center;
+}
+.img4 {
+    background-position-y: center;
+}
+.img6 {
+    background-position-y: center;
+    background-image: url(https://images.unsplash.com/photo-1554118811-1e0d58224f24?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&w=1000&q=80);
+}
+.img7 {
+    background-position-y: center;
+}
+.img8{
+    background-position-y: center;
+    background-image: url(https://media-cdn.tripadvisor.com/media/photo-s/10/0f/af/ea/hd-da-ivan.jpg);
+}
+.first {
+    width: 31%;
+}
+
+    }
