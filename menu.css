@@ -4,21 +4,22 @@
 }
 body {
     display: grid;
-
+    background-color: #ebecf1;
 }
 h1 {
     text-align: center;
     font-weight: 500;
 }
 .logo {
-    width: 50%;
+    width: 27%;
     height: auto;
+    position: relative;
 }
 .menu-container {
     display: grid;
     grid-template-columns: 1fr 1fr ;
     gap: 10px;
-    height: 150vh;
+    margin-bottom: 2vh;
 }
 .drinks-container {
     display: grid;
@@ -43,8 +44,7 @@ img {
     align-items: center;
     grid-template-columns: 2fr 4fr 1fr;
     min-height: 6vh;
-    
-    background-color: white;
+    background-color: #ddf3f5;
     margin-bottom: 5vh;
 }
 .mobile-hamburger-line {
@@ -70,7 +70,7 @@ img {
 .mobile-header-menu {
     position: absolute;
     width: 100%;
-    background-color: #b2ebf2;
+    background-color: #ddf3f5;
     display: grid;
     justify-items: center;
     align-items: center;
@@ -133,6 +133,7 @@ img {
 }
 .div1 {
     text-align: center;
+    box-shadow: 3px 3px 3px grey;
 }
 #div1-h-tag {
  font-weight: 500;
@@ -164,6 +165,7 @@ img {
 }
 .div2 {
     text-align: center;
+    box-shadow: 3px 3px 3px grey;
 }
 .div2-h-tag {
  font-weight: 500;
@@ -193,6 +195,7 @@ img {
 }       
 .div3 {
     text-align: center;
+    box-shadow: 3px 3px 3px grey;
 }
 .div3-h-tag {
     font-weight: 500;
@@ -221,6 +224,7 @@ img {
 }
 .div4 {
     text-align: center;
+    box-shadow: 3px 3px 3px grey;
 }
 .div-p-tag {
     line-height: 1.25;
@@ -249,6 +253,7 @@ img {
 }
 .div5 {
   text-align: center;
+  box-shadow: 3px 3px 3px grey;
 }
 .div5-h-tag {
     font-weight: 500;
@@ -277,6 +282,7 @@ img {
 }
 .div6 {
     text-align: center;
+    box-shadow: 3px 3px 3px grey;
 }
 .div6-p-tag {
     line-height: 1.25;
@@ -305,6 +311,7 @@ img {
 }
 .div7 {
     text-align: center;
+    box-shadow: 3px 3px 3px grey;
 }
 .div7-p-tag {
     line-height: 1.25;
@@ -333,6 +340,7 @@ img {
 }     
 .div8 {
     text-align: center;
+    box-shadow: 3px 3px 3px grey;
 }   
 .div8-h-tag {
     font-weight: 500;
@@ -361,6 +369,7 @@ img {
 }
 .div9 {
     text-align: center;
+    box-shadow: 3px 3px 3px grey;
 }
 .div9-h-tag {
     font-weight: 500;
@@ -389,6 +398,7 @@ img {
 }
 .div10 {
     text-align: center;
+    box-shadow: 3px 3px 3px grey;
 }
 .div10-h-tag {
     font-weight: 500;
@@ -417,6 +427,7 @@ img {
 }
 .div11 {
     text-align: center;
+    box-shadow: 3px 3px 3px grey;
 }
 .div11-h-tag {
     font-weight: 500;
@@ -445,9 +456,10 @@ img {
 }
 .div12 {
     text-align: center;
+    box-shadow: 3px 3px 3px grey;
 }
 .div12-h-tag {
-    font-weight: 500;
+    font-weight: 500; 
 } 
 .div12-p-tag {
     line-height: 1.25;
@@ -473,6 +485,7 @@ img {
 }
 .div13 {
     text-align: center;
+    box-shadow: 3px 3px 3px grey;
 }
 .div13-h-tag {
     font-weight: 500;
@@ -501,6 +514,7 @@ img {
 }
 .div14 {
     text-align: center;
+    box-shadow: 3px 3px 3px grey;
 }
 .div14-h-tag {
     font-weight: 500;
@@ -529,6 +543,7 @@ img {
 }
 .div15 {
     text-align: center;
+    box-shadow: 3px 3px 3px grey;
 }
 .div15-h-tag {
     font-weight: 500;
@@ -555,6 +570,7 @@ img {
 }
 .div16 {
     text-align: center;
+    box-shadow: 3px 3px 3px grey;
 }
 .div16-h-tag {
     font-weight: 500;
@@ -580,6 +596,7 @@ img {
 }
 .div17 {
     text-align: center;
+    box-shadow: 3px 3px 3px grey;
 }
 .div17-h-tag {
     font-weight: 500;
@@ -605,6 +622,7 @@ img {
 }
 .div18 {
     text-align: center;
+    box-shadow: 3px 3px 3px grey;
 }
 .div18-h-tag {
     font-weight: 500;
@@ -630,6 +648,7 @@ img {
 }
 .div19 {
     text-align: center;
+    box-shadow: 3px 3px 3px grey;
 }
 .div19-h-tag {
     font-weight: 500;
@@ -655,6 +674,7 @@ img {
 }
 .div20 {
     text-align: center;
+    box-shadow: 3px 3px 3px grey;
 }
 .div20-h-tag {
     font-weight: 500;
@@ -680,6 +700,7 @@ img {
 }
 .div21 {
     text-align: center;
+    box-shadow: 3px 3px 3px grey;
 }
 .div21-h-tag {
     font-weight: 500;
@@ -706,6 +727,7 @@ img {
 }
 .div22 {
     text-align: center;
+    box-shadow: 3px 3px 3px grey;
 }
 .div22-h-tag {
     font-weight: 500;
@@ -731,6 +753,7 @@ img {
 }
 .div23 {
     text-align: center;
+    box-shadow: 3px 3px 3px grey;
 }
 .div23-h-tag {
     font-weight: 500;
@@ -756,6 +779,7 @@ img {
 }
 .div24{
     text-align: center;
+    box-shadow: 3px 3px 3px grey;
 }
 .div24-h-tag {
     font-weight: 500;
@@ -791,7 +815,7 @@ img {
    @media only screen and (min-width:600px) {
     .menu-container {
         display: grid;
-     grid-template-columns: 1fr 1fr 1fr 1fr;
+        grid-template-columns: repeat(3, 1fr);
     }
 }
    @media only screen and (min-width:999px) {
@@ -799,4 +823,11 @@ img {
            display: grid;
         grid-template-columns: 1fr 1fr 1fr 1fr;
        }
+   }
+   @media only screen and (min-width:1300px) {
+       .menu-container {
+           display: grid;
+           grid-template-columns: repeat(5, 1fr);
+       }
+       
    }

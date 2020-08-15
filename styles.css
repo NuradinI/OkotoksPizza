@@ -52,7 +52,7 @@ h1 {
 .mobile-header-menu {
     position: absolute;
     width: 100%;
-    background-color: #b2ebf2;
+    background-color: #ddf3f5;
     display: grid;
     justify-items: center;
     align-items: center;
@@ -239,7 +239,7 @@ h1 {
 .first {
     margin-left: auto;
     margin-right: auto;
-    width: 50%;
+    width: 38%;
     display: block;
     margin-bottom: 5vh;
     margin-top: 5vh;
@@ -325,12 +325,10 @@ h1 {
         padding-right: 25.5vh;
     }
    img {
-    width: 30%;
+    width: 24%;
        padding-top: 0.4vh;
    }
-.mobile-header {
-    height: 6vh;
-}
+
 
 }
 @media only screen and (min-width:999px) {
@@ -363,4 +361,22 @@ h1 {
     width: 31%;
 }
 
+    }
+    @media only screen and (min-width:1200px) {
+        .content-one-text {
+            padding-left: 30vw;
+            padding-right: 30vw;
+        }
+        .first {
+            width: 23%;
+        }
+      
+        ul {
+            list-style-type: none;
+            margin: 0;
+            padding: 0%;
+        }
+        .li {
+            display:inline   
+        }
     }

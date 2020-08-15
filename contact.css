@@ -1,0 +1,94 @@
+.mobile-header {
+    display: grid;
+    justify-items: center;
+    align-items: center;
+    grid-template-columns: 2fr 4fr 1fr;
+    min-height: 6vh;
+    position: fixed;
+    background-color: #f1f9f9;
+    
+    top: 0;
+}
+.mobile-hamburger-line {
+    width:30px;
+    height: 4px;
+    background-color: black;
+}
+.mobile-hamburger-container {
+    display: grid;
+    justify-items: center;
+    align-items: center;
+    width: 50px;
+    height: 35px;
+    z-index: 4;
+    position: relative;
+}
+.header-a-tags {
+    color: #411f1f;
+    text-decoration: none;
+    font-weight: bold;
+    margin-top: 1vh;
+}
+.mobile-header-menu {
+    position: absolute;
+    width: 100%;
+    background-color: #f1f9f9;
+    display: grid;
+    justify-items: center;
+    align-items: center;
+    top: -15vh;
+    opacity: 0;
+    left: 0;
+    min-height: 10vh;
+    transition: all 0.5s ease-in-out;
+}
+.mobile-menu-checkbox {
+    width: 50px;
+    height: 50px;
+    position: absolute;
+    opacity: 0;
+    z-index: 5;
+}
+.mobile-menu-checkbox:checked ~ .mobile-header-menu {
+    top: 0;
+    opacity: 1;
+    transition: all 0.5s ease-in-out;
+}
+img {
+    width: 24%;
+}
+.footer {
+    text-align: center;
+    padding-top: 4vh;
+    padding-bottom: 4vh;
+    background-color: #f1f9f9; 
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+}
+.footertags {
+    padding-left: 2vw;
+    padding-right: 2vw;
+}
+.copyright {
+    padding-top: 1.7vh;
+}
+h1 {
+    text-align: center;
+    margin-top: 10vh;
+    font-family: 'Tangerine', cursive;
+}
+p {
+    text-align: center;
+    font-family: 'Nanum Myeongjo', serif;
+}
+@media only screen and (min-width:630px) {
+    h1 {
+        margin-top: 20vh;
+    }
+}
+@media only screen and (min-width:375px) {
+    img {
+        width: 40%;
+    }
+}
